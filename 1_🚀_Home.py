@@ -1,8 +1,9 @@
 import streamlit as st
+import time
 from PIL import Image
 from sidebar import add_sidebar_message
 
-# Set page configuration (title, icon, layout, sidebar state)
+# Set page configuration
 st.set_page_config(
     page_title="Mallikarjun - Data Scientist",
     page_icon="🕸️",
@@ -13,18 +14,30 @@ st.set_page_config(
 # Add the sidebar footer
 add_sidebar_message()
 
+# Function for Typewriter Effect
+def typewriter_effect(text, delay=0.1):
+    placeholder = st.empty()
+    displayed_text = ""
+    
+    for char in text:
+        displayed_text += char
+        placeholder.markdown(f"# {displayed_text} |")  # Display with blinking cursor
+        time.sleep(delay)
+    
+    placeholder.markdown(f"# {displayed_text}")  # Final display without cursor
+
 # Main content
 with st.container():
-    st.title("Hey there! 👋  I'm a Data Spider 🕷️")  # Title
+    typewriter_effect("Hey there! 👋  I'm a Data Spider 🕷️", delay=0.01)  # Typewriter title
+    
     st.markdown("")
-    # Create two columns with a minimal gap
+    
+    # Create two columns
     col1, col2 = st.columns((1, 1.5), gap="small")
     
     with col1:
         # Display profile image
-        st.markdown('<div class="profile-img">', unsafe_allow_html=True)
         st.image('./assets/img/profile-pic.png', use_column_width=True)
-        st.markdown('</div>', unsafe_allow_html=True)
     
     with col2:
         # Personal introduction

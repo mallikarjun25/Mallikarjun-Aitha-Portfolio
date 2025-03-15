@@ -43,13 +43,13 @@ with st.container():
         typewriter_effect("""
             **I'm Mallikarjun Aitha**, your go-to Data Spider, here to spin raw data into actionable insights with a dash of data-driven magic! 
             Armed with a Master’s in Data Science from the University of New Haven and hands-on experience in Machine Learning (ML), Spatial Data Science, 
-            and Advanced Analytics, I specialize in turning complex data problems into clear, impactful solutions. Currently, I work as a GIS Analyst at the 
+            and Advanced Analytics, I specialize in turning complex data problems into clear, impactful solutions. Currently, I work as a Geospatial Data Analyst at the 
             University of New Haven, analyzing New Haven Police Department Crime data
         """, delay=0.001)
         
         # Typewriter effect for career background
         typewriter_effect("""
-            My journey spans working as an Associate Analyst at American Express and Data Analyst at Downtown Evening Soup Kitchen, 
+            My journey spans working as an Associate Data Engineer at American Express and Data Analyst intern at Downtown Evening Soup Kitchen, 
             where I utilized analytics to refine strategies, enhance offerings, and create data-driven solutions. Whether it’s developing machine learning models, 
             exploring spatial data with GIS, or automating workflows, I thrive on solving complex challenges and delivering actionable intelligence.
         """, delay=0.001)

@@ -36,14 +36,14 @@ with st.container():
     
     with col1:
         # Display profile image
-        st.image('./assets/img/profile-pic.png', use_column_width=True)
+        st.image('./assets/img/MA02.png', use_column_width=True)
     
     with col2:
         # Typewriter effect for personal introduction
         typewriter_effect("""
             **I'm Mallikarjun Aitha**, your go-to Data Spider, here to spin raw data into actionable insights with a dash of data-driven magic! 
             Armed with a Master’s in Data Science from the University of New Haven and hands-on experience in Machine Learning (ML), Spatial Data Science, 
-            and Advanced Analytics, I specialize in turning complex data problems into clear, impactful solutions. Currently, I work as a Geospatial Data Analyst at the 
+            and Advanced Analytics, I specialize in turning complex data problems into clear, impactful solutions. Currently, I work as a Research Assistant at the 
             University of New Haven, analyzing New Haven Police Department Crime data
         """, delay=0.001)
         

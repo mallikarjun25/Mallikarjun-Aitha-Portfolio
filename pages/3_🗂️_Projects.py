@@ -15,6 +15,20 @@ add_sidebar_message()
 # Page title
 st.title('Projects')
 
+# Project: Mind-Mate
+with st.container():
+  col9, col10 = st.columns((1, 2))
+  with col9:
+    st.image(Image.open('./assets/img/mind-mate.png'))  # Project image
+  with col10:
+    st.subheader("Mind-Mate")
+    st.write("""
+A retrieval-augmented generation system for mental health support. Mind-Mate ingests domain-specific PDFs, builds a FAISS vector store with Hugging Face embeddings, retrieves relevant context, and generates responses using open-source LLMs (Mistral-7B, LLaMA-2-7B, Phi-3-mini) via LlamaCpp. Outputs are evaluated on perplexity, hallucination rate, and sentiment to ensure accuracy and care."""
+    st.markdown('`Streamlit`, `LangChain`, `FAISS`, `Hugging Face Embeddings`, `LlamaCpp`, `RAG`, `Mental Health Chatbot`')
+    st.markdown('[GitHub](https://github.com/mallikarjun25/Mind-Mate)')
+
+st.write('---')
+
 # Project: InceptFace
 with st.container():
   col9, col10 = st.columns((1, 2))

@@ -23,7 +23,7 @@ with st.container():
   with col10:
     st.subheader("Mind-Mate")
     st.write("""
-A retrieval-augmented generation system for mental health support. Mind-Mate ingests domain-specific PDFs, builds a FAISS vector store with Hugging Face embeddings, retrieves relevant context, and generates responses using open-source LLMs (Mistral-7B, LLaMA-2-7B, Phi-3-mini) via LlamaCpp. Outputs are evaluated on perplexity, hallucination rate, and sentiment to ensure accuracy and care."""
+A retrieval-augmented generation system for mental health support. Mind-Mate ingests domain-specific PDFs, builds a FAISS vector store with Hugging Face embeddings, retrieves relevant context, and generates responses using open-source LLMs (Mistral-7B, LLaMA-2-7B, Phi-3-mini) via LlamaCpp. Outputs are evaluated on perplexity, hallucination rate, and sentiment to ensure accuracy and care.""")
     st.markdown('`Streamlit`, `LangChain`, `FAISS`, `Hugging Face Embeddings`, `LlamaCpp`, `RAG`, `Mental Health Chatbot`')
     st.markdown('[GitHub](https://github.com/mallikarjun25/Mind-Mate)')
 

@@ -48,7 +48,9 @@ st.markdown("""
 [![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](#) 
 [![XGBoost](https://img.shields.io/badge/XGBoost-FF9900?style=for-the-badge&logo=xgboost&logoColor=white)](#) 
 [![LightGBM](https://img.shields.io/badge/LightGBM-00A550?style=for-the-badge&logo=lightgbm&logoColor=white)](#)
-<br>[![CatBoost](https://img.shields.io/badge/CatBoost-4081EC?style=for-the-badge&logo=catboost&logoColor=white)](#) 
+<br>
+
+[![CatBoost](https://img.shields.io/badge/CatBoost-4081EC?style=for-the-badge&logo=catboost&logoColor=white)](#) 
 [![spaCy](https://img.shields.io/badge/spaCy-09A3E3?style=for-the-badge&logo=spacy&logoColor=white)](#) 
 [![NLTK](https://img.shields.io/badge/NLTK-603A71?style=for-the-badge&logo=nltk&logoColor=white)](#) 
 [![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)](#) 
@@ -58,7 +60,9 @@ st.markdown("""
 [![DVC](https://img.shields.io/badge/DVC-08539C?style=for-the-badge&logo=dvc&logoColor=white)](#) 
 [![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apache-airflow&logoColor=white)](#) 
 [![Prefect](https://img.shields.io/badge/Prefect-000000?style=for-the-badge&logo=prefect&logoColor=white)](#)
-<br>[![Kubeflow](https://img.shields.io/badge/Kubeflow-7B13D8?style=for-the-badge&logo=kubeflow&logoColor=white)](#) 
+<br>
+
+[![Kubeflow](https://img.shields.io/badge/Kubeflow-7B13D8?style=for-the-badge&logo=kubeflow&logoColor=white)](#) 
 [![BentoML](https://img.shields.io/badge/BentoML-00A8E0?style=for-the-badge&logo=bentoml&logoColor=white)](#) 
 [![SageMaker](https://img.shields.io/badge/SageMaker-FF9900?style=for-the-badge&logo=amazonsagemaker&logoColor=white)](#) 
 """, unsafe_allow_html=True)

@@ -38,6 +38,31 @@ st.markdown("""
 [![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)](#)  
 """, unsafe_allow_html=True)
 
+# Data Science, AI & MLOps Tools
+st.markdown("### Data Science, AI & MLOps Tools:")
+st.markdown("""
+[![Hugging Face](https://img.shields.io/badge/HuggingFace-FF6E40?style=for-the-badge&logo=huggingface&logoColor=white)](#) 
+[![Transformers](https://img.shields.io/badge/Transformers-EE4C2C?style=for-the-badge&logo=transformers&logoColor=white)](#) 
+[![LangChain](https://img.shields.io/badge/LangChain-60A5FA?style=for-the-badge&logo=langchain&logoColor=white)](#) 
+[![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)](#) 
+[![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](#) 
+[![XGBoost](https://img.shields.io/badge/XGBoost-FF9900?style=for-the-badge&logo=xgboost&logoColor=white)](#) 
+[![LightGBM](https://img.shields.io/badge/LightGBM-00A550?style=for-the-badge&logo=lightgbm&logoColor=white)](#)<br>
+[![CatBoost](https://img.shields.io/badge/CatBoost-4081EC?style=for-the-badge&logo=catboost&logoColor=white)](#) 
+[![spaCy](https://img.shields.io/badge/spaCy-09A3E3?style=for-the-badge&logo=spacy&logoColor=white)](#) 
+[![NLTK](https://img.shields.io/badge/NLTK-603A71?style=for-the-badge&logo=nltk&logoColor=white)](#) 
+[![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)](#) 
+[![FastAI](https://img.shields.io/badge/FastAI-0055FF?style=for-the-badge&logo=fastai&logoColor=white)](#) 
+[![AutoGluon](https://img.shields.io/badge/AutoGluon-3C4DAA?style=for-the-badge)](#) 
+[![MLflow](https://img.shields.io/badge/MLflow-00A0D1?style=for-the-badge&logo=mlflow&logoColor=white)](#) 
+[![DVC](https://img.shields.io/badge/DVC-08539C?style=for-the-badge&logo=dvc&logoColor=white)](#) 
+[![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apache-airflow&logoColor=white)](#) 
+[![Prefect](https://img.shields.io/badge/Prefect-000000?style=for-the-badge&logo=prefect&logoColor=white)](#)<br>
+[![Kubeflow](https://img.shields.io/badge/Kubeflow-7B13D8?style=for-the-badge&logo=kubeflow&logoColor=white)](#) 
+[![BentoML](https://img.shields.io/badge/BentoML-00A8E0?style=for-the-badge&logo=bentoml&logoColor=white)](#) 
+[![SageMaker](https://img.shields.io/badge/SageMaker-FF9900?style=for-the-badge&logo=amazonsagemaker&logoColor=white)](#) 
+""", unsafe_allow_html=True)
+
 # Databases
 st.markdown("### Databases:")
 st.markdown("""
@@ -49,8 +74,8 @@ st.markdown("""
 # Visualization
 st.markdown("### Visualization:")
 st.markdown("""
-[![Matplotlib](https://img.shields.io/badge/Matplotlib-0088CC?style=for-the-badge)](#) 
-[![Seaborn](https://img.shields.io/badge/Seaborn-003262?style=for-the-badge)](#) 
+[![Matplotlib](https://img.shields.io/badge/Matplotlib-0088CC?style=for-the-badge&logo=matplotlib&logoColor=white)](#) 
+[![Seaborn](https://img.shields.io/badge/Seaborn-003262?style=for-the-badge&logo=seaborn&logoColor=white)](#) 
 [![Plotly](https://img.shields.io/badge/Plotly-1F77B4?style=for-the-badge&logo=plotly&logoColor=white)](#) 
 [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](#) 
 [![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)](#) 
@@ -68,5 +93,5 @@ st.markdown("""
 st.markdown("### Geographic Information System (GIS):")
 st.markdown("""
 [![ESRI](https://img.shields.io/badge/ESRI-0076D6?style=for-the-badge)](#) 
-[![ArcGIS](https://img.shields.io/badge/ArcGIS-1E4D2B?style=for-the-badge)](#)  
+[![ArcGIS](https://img.shields.io/badge/ArcGIS-1E4D2B?style=for-the-badge&logo=esri&logoColor=white)](#)  
 """, unsafe_allow_html=True)

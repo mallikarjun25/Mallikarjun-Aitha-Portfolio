@@ -14,7 +14,6 @@ Hey there! I'm **Mallikarjun**, a Data Science grad student at the **University 
 - 🕵️ **Auction Predictor** – Logistic Regression model on `eBayAuctions.csv`
 - 📸 **CNN Image Classifier** – Built with PyTorch, trained on over 1K labeled images
 
-## 🛠️ Tools of the Trade
 ## 🛠️ Tools of the Trade  
 `Python` | `SQL` | `R` | `PyTorch` | `TensorFlow` | `Transformers` | `LangChain` | `HuggingFace` | `LLMs` |  
 `Prompt Engineering` | `GenAI` | `Machine Learning` | `Spark` | `Kafka` | `Hadoop` |  

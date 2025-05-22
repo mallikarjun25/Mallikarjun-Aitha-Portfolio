@@ -70,6 +70,6 @@ with st.container():
             st.download_button(
                 label="Download my resume",
                 data=file,
-                file_name="Mallikarjun_Aitha_Resume.pdf",
+                file_name="Mallikarjun_Aitha_Resume1.pdf",
                 mime="application/pdf"
             )
